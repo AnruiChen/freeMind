@@ -1,0 +1,111 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url("/logo.jpg");
+    padding-top: 70px;
+}
+
+#jumbotron{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#navbar, #navbar-default, #navbar-fixed-top{
+   font-weight: bold;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+
+.about-content{
+    box-sizing: border-box;
+    max-width: 1130px;;
+    margin: 0 auto;
+    padding: 55px;
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    font: 20px sans-serif;
+}
+
+.form-labels-on-top{
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 55px;
+    background-color:  #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+    font: bold 14px sans-serif;
+    text-align: center;
+}
+
+.form-labels-on-top .form-row{
+    text-align: left;
+    max-width: 315px;
+    margin: auto 0;
+}
+
+.form-labels-on-top .form-title-row{
+    margin: 0 auto 40px;
+}
+
+.form-labels-on-top h1{
+    display: inline-block;
+    box-sizing: border-box;
+    color: #4C565E;
+    font-size: 24px;
+    padding: 0 0 12px 0;
+    margin: 0;
+    border-bottom: 2px solid #6CAEE0;
+}
+
+.form-labels-on-top .form-row > label span{
+    display: block;
+    box-sizing: border-box;
+    color:  #5f5f5f;
+    width: 700px;
+    padding: 20px 0 12px;
+}
+
+.form-labels-on-top input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 700px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 0px;
+    border: 1px solid #dbdbdb;
+}
+
+
+.form-labels-on-top select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
+}
+
+.form-labels-on-top button{
+    border-radius: 2px;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 22px;
+    border: 0;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+

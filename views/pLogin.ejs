@@ -1,0 +1,50 @@
+
+
+<% include partials/header.ejs %>
+
+<div class="main-content">
+
+    <form class="form-labels-on-top" action = "/thank" method = "GET">
+
+        <div class="form-title-row">
+            <h1>Log in to your account:</h1>
+        </div>
+
+
+        <div class="form-row">
+            <label>
+                <span>Username:</span>
+                <input type = "text" placeholder = "Username">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <label>
+                <span>Password:</span>
+                <input type = "password" placeholder = "Password">
+            </label>
+        </div>
+
+        <div class="form-row">
+            <a href="/search" class="btn btn-info" role="button" style = "margin-top: 20px">Log In</a>
+        </div>
+        <fb:login-button scope="user_posts, user_relationship_details, user_about_me" onlogin="checkLoginState();">
+        </fb:login-button>
+        <h1 id="status"></h1>
+    </form>
+
+    
+</div>
+
+<% include partials/footer.ejs %>
+
+
+
+
+
+
+
+
+
+
+
